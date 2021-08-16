@@ -1,0 +1,15 @@
+{
+  "name": "snowpack-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "object-is": "^1.1.5"
+  },
+  "scripts": {
+    "start": "snowpack dev"
+  },
+  "devDependencies": {
+    "snowpack": "^3.8.6"
+  }
+}
