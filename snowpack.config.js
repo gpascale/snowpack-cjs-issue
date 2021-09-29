@@ -7,9 +7,13 @@ module.exports = {
   ],
   packageOptions: {
     /* ... */
+    rollup: {
+      requireReturnsDefault: "preferred",
+    },
   },
   devOptions: {
     /* ... */
+    open: "none",
   },
   buildOptions: {
     /* ... */
